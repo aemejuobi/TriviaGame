@@ -1,7 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-    margin-top: 100px
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
 }
 
 #container{
@@ -9,6 +11,8 @@ body{
     border: 1px solid black;
     margin: 0 auto;
     overflow: hidden;
+    border-radius: 10px;
+    background-color: antiquewhite;
 }
 
 #timer{
@@ -29,10 +33,11 @@ p{
     margin: 20px 0 10px 0;
 }
 
-#question1{
+.question{
     width: 100%;
     margin: 0 auto;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .answerBox{
@@ -43,4 +48,41 @@ p{
 
 .answer{
     display: inline;
+}
+
+.buttonDiv{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#start{
+    border: 3px solid black;
+    text-align: center;
+    padding: 10px 55px;
+    font-size: 4em;
+    letter-spacing: 3px;
+    font-weight: bold;
+    width: auto;
+    border-radius: 20px;
+    background-color: lightgrey;
+}
+
+#done{
+    border: 3px solid black;
+    text-align: center;
+    padding: 10px 55px;
+    font-size: 4em;
+    letter-spacing: 3px;
+    font-weight: bold;
+    width: auto;
+    border-radius: 20px;
+    background-color: lightgrey;
+}
+
+h2{
+    text-align: center;
+    width: 100%;
+    margin: 20px 0 10px 0; 
 }

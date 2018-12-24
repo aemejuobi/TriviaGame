@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="assets/js/app.js"></script>
 </head>
 
     <body>
@@ -16,37 +14,190 @@
                 <h1 id="heading">Car Trivia Game</h1>
             </header>
 
-            <button id="start">Start</button>
+            <div class="buttonDiv">
+                <button id="start" type="button">Start</button>
+            </div>
+            
+            <div id="timer">00:00</div>
 
-            <!-- <div id="timer">00:00</div>
-
-            <div id="question1">
+            <div class="question">
                 <p>Which one of these car models belongs to the Koenigsegg car company?</p>
                 
-                <div class=answerBox>
+                <div class="answerBox">
+                    
                     <div class="answer">
-                        <input type="radio" id="chiron" class="answerChoice">
-                        <label for="chiron">Chiron</label>
+                        <input type="radio" id="chiron" class="answerChoice" name="q1" value="chiron">
+                        <label>Chiron</label>
                     </div>
 
                     <div class="answer">
-                        <input type="radio" id="huayra"  class="answerChoice">
-                        <label for="huayra">Huayra</label>
+                        <input type="radio" id="huayra"  class="answerChoice" name="q1" value="huayra">
+                        <label>Huayra</label>
                     </div>
 
                     <div class="answer">
-                        <input type="radio" id="huracan"  class="answerChoice">
-                        <label for="huracan">Huracan</label>
+                        <input type="radio" id="huracan"  class="answerChoice" name="q1" value="huracan">
+                        <label>Huracan</label>
                     </div>
 
                     <div class="answer">
-                        <input type="radio" id="agera"  class="answerChoice">
-                        <label for="agera">Agera</label>
+                        <input type="radio" id="agera"  class="answerChoice" name="q1" value="agera">
+                        <label>Agera</label>
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+            <div class="question">
+                <p>Which one of these car companies does Volkswagon own?</p>
+                
+                <div class="answerBox">
+                    <div class="answer">
+                        <input type="radio" id="bugatti" class="answerChoice" name="q2" value="bugatti">
+                        <label>Bugatti</label>
+                    </div>
+
+                    <div class="answer">
+                        <input type="radio" id="ford"  class="answerChoice" name="q2" value="ford">
+                        <label>Ford</label>
+                    </div>
+
+                    <div class="answer">
+                        <input type="radio" id="mercedes"  class="answerChoice" name="q2" value="mercedes">
+                        <label>Mercedes</label>
+                    </div>
+
+                    <div class="answer">
+                        <input type="radio" id="mclaren"  class="answerChoice" name="q2" value="mclaren">
+                        <label>McLaren</label>
                     </div>
                 </div>
                 
-            </div> -->
+            </div>
+
+            <div class="question">
+                <p>Which car holds the record at the Nurburgring?</p>
+                
+                <div class="answerBox">
+                    <div class="answer">
+                        <input type="radio" id="gt2rs" class="answerChoice" name="q3" value="gt2rs">
+                        <label>Porsche GT2 RS</label>
+                    </div>
+
+                    <div class="answer">
+                        <input type="radio" id="spyder"  class="answerChoice" name="q3" value="spyder">
+                        <label>Porsche 918 Spyder</label>
+                    </div>
+
+                    <div class="answer">
+                        <input type="radio" id="svj"  class="answerChoice" name="q3" value="svj">
+                        <label>Aventador SVJ</label>
+                    </div>
+
+                    <div class="answer">
+                        <input type="radio" id="performante"  class="answerChoice" name="q3" value="performante">
+                        <label>Huracan Performante</label>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="question">
+                <p>What was the name given to the Shelby GT500 in the movie "Gone in 60 Seconds"?</p>
+                
+                <div class="answerBox">
+                    <div class="answer">
+                        <input type="radio" id="eleanor" class="answerChoice" name="q4" value="eleanor">
+                        <label>Eleanor</label>
+                    </div>
+
+                    <div class="answer">
+                        <input type="radio" id="becky"  class="answerChoice" name="q4" value="becky">
+                        <label>Becky</label>
+                    </div>
+
+                    <div class="answer">
+                        <input type="radio" id="agnes"  class="answerChoice" name="q4" value="agnes">
+                        <label>Agnes</label>
+                    </div>
+
+                    <div class="answer">
+                        <input type="radio" id="sharon"  class="answerChoice" name="q4" value="sharon">
+                        <label>Sharon</label>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="question">
+                <p>What is the first "pony car"?</p>
+                
+                <div class="answerBox">
+                    <div class="answer">
+                        <input type="radio" id="gt" class="answerChoice" name="q5" value="gt">
+                        <label>Ford GT</label>
+                    </div>
+
+                    <div class="answer">
+                        <input type="radio" id="camaro"  class="answerChoice" name="q5" value="camaro">
+                        <label>Camaro</label>
+                    </div>
+
+                    <div class="answer">
+                        <input type="radio" id="mustang"  class="answerChoice" name="q5" value="mustang">
+                        <label>Mustang</label>
+                    </div>
+
+                    <div class="answer">
+                        <input type="radio" id="corvette"  class="answerChoice" name="q5" value="corvette">
+                        <label>Corvette</label>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="question">
+                <p>What Tesla would you prefer?</p>
+                
+                <div class="answerBox">
+                    <div class="answer">
+                        <input type="radio" id="modelS" class="answerChoice" name="q6" value="modelS">
+                        <label>Model S</label>
+                    </div>
+
+                    <div class="answer">
+                        <input type="radio" id="modelX"  class="answerChoice" name="q6" value="modelX">
+                        <label>Model X</label>
+                    </div>
+
+                    <div class="answer">
+                        <input type="radio" id="model3"  class="answerChoice" name="q6" value="model3">
+                        <label>Model 3</label>
+                    </div>
+
+                    <div class="answer">
+                        <input type="radio" id="roadster"  class="answerChoice" name="q6" value="roadster">
+                        <label>Roadster</label>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="buttonDiv">
+                <button id="done" type="button">Done</button>
+            </div>
+
+            <div id="resultPage">
+                <h2>All Done!</h2>
+                <p>Correct Answers: <span id="correct"></span></p>
+                <p>Incorrect Answers: <span id="incorrect"></span></p>
+                <p>Unanswered: <span id="unanswered"></span></p>
+            </div>
 
         </div>
     </body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/js/app.js"></script>
 </html>
