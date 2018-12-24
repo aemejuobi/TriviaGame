@@ -21,7 +21,7 @@ var hider = () => {
     $("#timer").hide();
     $(".question").hide();
     $("#done").hide();
-    //$("#resultPage").hide();
+    $("#resultPage").hide();
 };
 
 
