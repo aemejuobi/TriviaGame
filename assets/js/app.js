@@ -51,7 +51,7 @@ $(document).ready(function(){
         var counter = () => {
             time++;
 
-            if(time === 6000){
+            if(time === 60){
                 console.log("yo");
                 stop();
                 $("#timer").hide();
